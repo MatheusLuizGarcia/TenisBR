@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+  color:white !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url(/bg.jpg);
+    backdrop-filter:blur(20%)
+}
+
+.navbar {
+    background-color: rgb(160, 50, 50) !important;
+    color: white !important;
+}
+
+.navbar ul li a {
+    color: white !important;
+}
+
+#header{
+    font-style:bold;
+}
+
+#cards-artigos {
+    padding:5%;
+    background-color: rgb(220,200,140);
+    border 1px solid black;
+    width: fit-content;
+    margin-left: 50px;
+    margin-right: auto;
+    display: inline-flex!important
+}
+
+.card img{
+    width:316px;
+    height:316px;
+    border-bottom:1px solid darkgrey
+}
+
+.card {
+    background-color: rgb(160, 50, 50) !important;
+    margin: 10px;
+    border: 2px solid lightgrey;
+    box-shadow: wheat 1px 1px 10px
+}
+.card .btn{
+    background-color: rgb(60,100,125);
+}
+
+
+#artigo {
+    padding: 5%;
+    background-color: rgb(220,200,140);
+    border 1px solid black;
+    width: fit-content;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align:justify;
+    font-size: 24px
+}
+
+#artigo h1{
+    text-align:center;
+    margin-bottom:40px
+}
+
+
+footer{
+    position:bottom;
+}
